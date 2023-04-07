@@ -10,4 +10,9 @@ public class HelloWorld {
 	public String getStatus() {
 		return "HELLO WORLD!!";
 	}
+
+	@GetMapping("/page2")
+	public String getSting() {
+		return "HELLO Page 2";
+	}
 }
