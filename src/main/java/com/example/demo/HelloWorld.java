@@ -8,6 +8,6 @@ public class HelloWorld {
 
 	@GetMapping("/")
 	public String getStatus() {
-		return "App is running";
+		return "HELLO WORLD!!";
 	}
 }
