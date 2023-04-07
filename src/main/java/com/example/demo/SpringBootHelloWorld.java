@@ -25,6 +25,7 @@ public class SpringBootHelloWorld {
 		return "index";
 	}
 	
+	/* 
 	//添加SQL驗證帳號
 	@GetMapping("result")
 	public ModelAndView home(@RequestParam(required = false) String user_name,@RequestParam(required = false) String user_password) {
@@ -48,7 +49,7 @@ public class SpringBootHelloWorld {
 		}
 		
 	}
-	
+	*/
 	
 	/*
 	 * TestAccount寫死
